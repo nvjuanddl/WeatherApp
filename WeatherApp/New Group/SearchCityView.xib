@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SearchCityView" customModule="WeatherApp" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="dlg-QT-F2O" customClass="SearchCityView" customModule="WeatherApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="vdt-Gz-ioU">
+                    <rect key="frame" x="0.0" y="48" width="375" height="619"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="dlg-QT-F2O" id="5KX-fI-gZm"/>
+                        <outlet property="delegate" destination="dlg-QT-F2O" id="NkW-Wo-Xsd"/>
+                    </connections>
+                </tableView>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="City Search" textAlignment="natural" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="fzQ-eC-YM9" customClass="SearchTextField" customModule="WeatherApp" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="48"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="48" id="7z3-OP-aqE"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no"/>
+                    <connections>
+                        <outlet property="delegate" destination="dlg-QT-F2O" id="7XT-gS-ZTS"/>
+                    </connections>
+                </textField>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="vdt-Gz-ioU" firstAttribute="leading" secondItem="fzQ-eC-YM9" secondAttribute="leading" id="068-Bw-OPE"/>
+                <constraint firstItem="vdt-Gz-ioU" firstAttribute="trailing" secondItem="fzQ-eC-YM9" secondAttribute="trailing" id="LhA-tO-OK0"/>
+                <constraint firstItem="fzQ-eC-YM9" firstAttribute="leading" secondItem="Yxv-01-cIF" secondAttribute="leading" id="e3R-cY-qRK"/>
+                <constraint firstItem="fzQ-eC-YM9" firstAttribute="top" secondItem="dlg-QT-F2O" secondAttribute="top" id="gAe-P3-hZ8"/>
+                <constraint firstItem="fzQ-eC-YM9" firstAttribute="trailing" secondItem="Yxv-01-cIF" secondAttribute="trailing" id="sDz-qb-1eU"/>
+                <constraint firstItem="vdt-Gz-ioU" firstAttribute="bottom" secondItem="Yxv-01-cIF" secondAttribute="bottom" id="try-V7-9Bh"/>
+                <constraint firstItem="vdt-Gz-ioU" firstAttribute="top" secondItem="fzQ-eC-YM9" secondAttribute="bottom" id="zbM-ss-Jpp"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Yxv-01-cIF"/>
+            <connections>
+                <outlet property="searchField" destination="fzQ-eC-YM9" id="KQS-LE-MEd"/>
+                <outlet property="tableView" destination="vdt-Gz-ioU" id="SaQ-Gc-FnM"/>
+            </connections>
+            <point key="canvasLocation" x="-108.5" y="-39.5"/>
+        </view>
+    </objects>
+</document>

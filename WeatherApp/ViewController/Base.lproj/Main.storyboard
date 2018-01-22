@@ -21,16 +21,6 @@
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="pbt-lR-kWh">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </mapView>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cKq-if-0iW">
-                                <rect key="frame" x="74" y="36" width="227" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="DnF-li-0Bv"/>
-                                    <constraint firstAttribute="width" constant="227" id="wae-hT-yI6"/>
-                                </constraints>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PbB-fc-YOz">
                                 <rect key="frame" x="0.0" y="610" width="375" height="57"/>
                                 <subviews>
@@ -87,13 +77,10 @@
                             <constraint firstItem="pbt-lR-kWh" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="0RV-8C-Y1n"/>
                             <constraint firstItem="PbB-fc-YOz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="10z-16-Ujg"/>
                             <constraint firstItem="KRz-Th-3Fo" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" symbolic="YES" id="1fh-vR-pMr"/>
-                            <constraint firstItem="cKq-if-0iW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="3Wf-7z-uE4"/>
                             <constraint firstItem="pbt-lR-kWh" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="7uK-HF-MQB"/>
                             <constraint firstItem="pbt-lR-kWh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Agb-4l-iX7"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="KRz-Th-3Fo" secondAttribute="trailing" constant="22" id="Ie2-Cj-Xpp"/>
                             <constraint firstItem="pbt-lR-kWh" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Is2-wN-kC2"/>
-                            <constraint firstItem="cKq-if-0iW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="74" id="WPc-wQ-Skk"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cKq-if-0iW" secondAttribute="trailing" constant="74" id="hqy-If-Gyb"/>
                             <constraint firstItem="KRz-Th-3Fo" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="iRi-r4-Yj9"/>
                             <constraint firstItem="PbB-fc-YOz" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="oH8-B5-Ux6"/>
                             <constraint firstItem="PbB-fc-YOz" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="qbj-0a-1AB"/>
@@ -103,7 +90,6 @@
                     <connections>
                         <outlet property="averageLabel" destination="NCn-cA-GXm" id="Wnu-q3-3Mk"/>
                         <outlet property="mapView" destination="pbt-lR-kWh" id="apq-vo-rWR"/>
-                        <outlet property="textField" destination="cKq-if-0iW" id="Ai9-JB-VMf"/>
                         <outlet property="varianceLabel" destination="eCx-3N-r82" id="wcw-4J-7Hk"/>
                     </connections>
                 </viewController>

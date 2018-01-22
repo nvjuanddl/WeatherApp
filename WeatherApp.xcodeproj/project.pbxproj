@@ -8,6 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		B8419C3E201140460088452C /* Calculate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8419C3D201140460088452C /* Calculate.swift */; };
+		B8419C5620154E350088452C /* SearchCityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8419C5420154E350088452C /* SearchCityView.swift */; };
+		B8419C5720154E350088452C /* SearchCityView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8419C5520154E350088452C /* SearchCityView.xib */; };
+		B8419C5920154E830088452C /* SearchTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8419C5820154E830088452C /* SearchTextField.swift */; };
+		B8419C5B20154ED10088452C /* SearchClearDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8419C5A20154ED10088452C /* SearchClearDelegate.swift */; };
+		B8419C5D20154F280088452C /* NSObjectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8419C5C20154F280088452C /* NSObjectExtension.swift */; };
+		B8419C5F20154F8D0088452C /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8419C5E20154F8D0088452C /* UIViewExtension.swift */; };
+		B8419C64201552AF0088452C /* UITableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8419C63201552AF0088452C /* UITableViewExtension.swift */; };
+		B8419C6C201554280088452C /* SearchResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8419C6A201554280088452C /* SearchResultCell.swift */; };
+		B8419C6D201554280088452C /* SearchResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8419C6B201554280088452C /* SearchResultCell.xib */; };
+		B8419C702015C8230088452C /* LocationGetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8419C6F2015C8230088452C /* LocationGetter.swift */; };
+		B8419C722015C8BD0088452C /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8419C712015C8BD0088452C /* Location.swift */; };
+		B8419C742015D5270088452C /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8419C732015D5270088452C /* StringExtension.swift */; };
 		B84DEBCA20110D6D00AFA428 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84DEBC920110D6D00AFA428 /* AppDelegate.swift */; };
 		B84DEBCC20110D6D00AFA428 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84DEBCB20110D6D00AFA428 /* ViewController.swift */; };
 		B84DEBCF20110D6D00AFA428 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B84DEBCD20110D6D00AFA428 /* Main.storyboard */; };
@@ -38,6 +50,18 @@
 
 /* Begin PBXFileReference section */
 		B8419C3D201140460088452C /* Calculate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculate.swift; sourceTree = "<group>"; };
+		B8419C5420154E350088452C /* SearchCityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCityView.swift; sourceTree = "<group>"; };
+		B8419C5520154E350088452C /* SearchCityView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchCityView.xib; sourceTree = "<group>"; };
+		B8419C5820154E830088452C /* SearchTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTextField.swift; sourceTree = "<group>"; };
+		B8419C5A20154ED10088452C /* SearchClearDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchClearDelegate.swift; sourceTree = "<group>"; };
+		B8419C5C20154F280088452C /* NSObjectExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObjectExtension.swift; sourceTree = "<group>"; };
+		B8419C5E20154F8D0088452C /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		B8419C63201552AF0088452C /* UITableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewExtension.swift; sourceTree = "<group>"; };
+		B8419C6A201554280088452C /* SearchResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultCell.swift; sourceTree = "<group>"; };
+		B8419C6B201554280088452C /* SearchResultCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchResultCell.xib; sourceTree = "<group>"; };
+		B8419C6F2015C8230088452C /* LocationGetter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationGetter.swift; sourceTree = "<group>"; };
+		B8419C712015C8BD0088452C /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		B8419C732015D5270088452C /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		B84DEBC620110D6D00AFA428 /* WeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B84DEBC920110D6D00AFA428 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B84DEBCB20110D6D00AFA428 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +104,75 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B8419C6020154FE70088452C /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B8419C5C20154F280088452C /* NSObjectExtension.swift */,
+				B8419C5E20154F8D0088452C /* UIViewExtension.swift */,
+				B8419C63201552AF0088452C /* UITableViewExtension.swift */,
+				B8419C732015D5270088452C /* StringExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		B8419C6120154FFF0088452C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B8419C5820154E830088452C /* SearchTextField.swift */,
+				B84DEBF7201111D300AFA428 /* City.swift */,
+				B84DEBF8201111D300AFA428 /* DataSource.swift */,
+				B8419C3D201140460088452C /* Calculate.swift */,
+				B8419C712015C8BD0088452C /* Location.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B8419C65201553200088452C /* SearchCity */ = {
+			isa = PBXGroup;
+			children = (
+				B8419C67201553C90088452C /* SearchCityCell */,
+				B8419C5420154E350088452C /* SearchCityView.swift */,
+				B8419C5520154E350088452C /* SearchCityView.xib */,
+			);
+			name = SearchCity;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		B8419C67201553C90088452C /* SearchCityCell */ = {
+			isa = PBXGroup;
+			children = (
+				B8419C6A201554280088452C /* SearchResultCell.swift */,
+				B8419C6B201554280088452C /* SearchResultCell.xib */,
+			);
+			path = SearchCityCell;
+			sourceTree = "<group>";
+		};
+		B8419C6E2015C8050088452C /* ApiLocation */ = {
+			isa = PBXGroup;
+			children = (
+				B8419C6F2015C8230088452C /* LocationGetter.swift */,
+			);
+			path = ApiLocation;
+			sourceTree = "<group>";
+		};
+		B8419C752015FD450088452C /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				B8419C5A20154ED10088452C /* SearchClearDelegate.swift */,
+				B84DEBC920110D6D00AFA428 /* AppDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		B8419C762015FD5B0088452C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B84DEBCB20110D6D00AFA428 /* ViewController.swift */,
+				B84DEBCD20110D6D00AFA428 /* Main.storyboard */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		B84DEBBD20110D6D00AFA428 = {
 			isa = PBXGroup;
 			children = (
@@ -103,15 +196,15 @@
 		B84DEBC820110D6D00AFA428 /* WeatherApp */ = {
 			isa = PBXGroup;
 			children = (
-				B84DEBF7201111D300AFA428 /* City.swift */,
-				B84DEBF8201111D300AFA428 /* DataSource.swift */,
-				B84DEBC920110D6D00AFA428 /* AppDelegate.swift */,
-				B84DEBCB20110D6D00AFA428 /* ViewController.swift */,
-				B84DEBCD20110D6D00AFA428 /* Main.storyboard */,
+				B8419C762015FD5B0088452C /* ViewController */,
+				B8419C752015FD450088452C /* Delegate */,
+				B8419C6E2015C8050088452C /* ApiLocation */,
+				B8419C65201553200088452C /* SearchCity */,
+				B8419C6120154FFF0088452C /* Model */,
+				B8419C6020154FE70088452C /* Extension */,
 				B84DEBD020110D6D00AFA428 /* Assets.xcassets */,
 				B84DEBD220110D6D00AFA428 /* LaunchScreen.storyboard */,
 				B84DEBD520110D6D00AFA428 /* Info.plist */,
-				B8419C3D201140460088452C /* Calculate.swift */,
 			);
 			path = WeatherApp;
 			sourceTree = "<group>";
@@ -242,6 +335,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B84DEBD420110D6D00AFA428 /* LaunchScreen.storyboard in Resources */,
+				B8419C6D201554280088452C /* SearchResultCell.xib in Resources */,
+				B8419C5720154E350088452C /* SearchCityView.xib in Resources */,
 				B84DEBD120110D6D00AFA428 /* Assets.xcassets in Resources */,
 				B84DEBCF20110D6D00AFA428 /* Main.storyboard in Resources */,
 			);
@@ -268,11 +363,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8419C702015C8230088452C /* LocationGetter.swift in Sources */,
+				B8419C5F20154F8D0088452C /* UIViewExtension.swift in Sources */,
+				B8419C742015D5270088452C /* StringExtension.swift in Sources */,
 				B84DEBCC20110D6D00AFA428 /* ViewController.swift in Sources */,
 				B84DEBCA20110D6D00AFA428 /* AppDelegate.swift in Sources */,
 				B84DEBFA201111D300AFA428 /* DataSource.swift in Sources */,
 				B8419C3E201140460088452C /* Calculate.swift in Sources */,
+				B8419C722015C8BD0088452C /* Location.swift in Sources */,
+				B8419C64201552AF0088452C /* UITableViewExtension.swift in Sources */,
+				B8419C5B20154ED10088452C /* SearchClearDelegate.swift in Sources */,
+				B8419C5920154E830088452C /* SearchTextField.swift in Sources */,
 				B84DEBF9201111D300AFA428 /* City.swift in Sources */,
+				B8419C5D20154F280088452C /* NSObjectExtension.swift in Sources */,
+				B8419C6C201554280088452C /* SearchResultCell.swift in Sources */,
+				B8419C5620154E350088452C /* SearchCityView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
